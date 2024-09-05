@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Hub</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <div id="close" class="fas fa-times"></div>
+            <a href="#home" class="nav_item">home</a>
+            <a href="#about" class="nav_item">about</a>
+            <a href="#menu" class="nav_item">menu</a>
+            <a href="#contact" class="nav_item">contact</a>
+        </nav>
+        <div id="menu" class="fas fa-bars"></div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1 class="title">fresh <span>coffee</span> in the <span>morning</span> </h1>
+            <p class="description">The customer is very important, the customer will be followed by the customer.</p>
+            <a href="#menu" class="btn">get started</a>
+        </div>
+        <div class="image">
+            <img src="images/home.png" alt="" data-speed="-3" class="move">
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <div class="background">
+            <img src="images/about.jpg" alt="" class="move" data-speed="-2">
+        </div>
+        <div class="content">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-description">Welcome to Coffee Hub! Here's what makes us special:</p>
+            <ul class="about-list">
+                <li>
+                    <strong>Our Coffee:</strong>
+                    Sourced from the finest regions worldwide, each batch is roasted to perfection, delivering rich flavors and a story of dedication in every sip.
+                </li>
+                <li>
+                    <strong>Your Experience:</strong>
+                    More than just a coffee shop, we’re a space to unwind, connect, and enjoy. Our baristas are coffee enthusiasts who take pride in every cup they serve.
+                </li>
+                <li>
+                    <strong>Join Us:</strong>
+                    Whether you're craving a classic espresso or exploring seasonal blends, every visit to Coffee Hub is a celebration of coffee’s vibrant flavors.
+                </li>
+            </ul>
+        </div>
+    </section>
+<!-- about section ends -->
+
+
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <div class="background">
+            <img src="images/menu.jpg" alt="" class="move" data-speed="-2">
+        </div>
+        <div class="content">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>$3.00</p>
+            </div>
+            <div class="menu-item">
+                <h3>Americano</h3>
+                <p>$3.50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>$4.00</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>$4.50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Mocha</h3>
+                <p>$5.00</p>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <form action="">
+            <input type="text" placeholder="Your Name" required>
+            <input type="number" placeholder="Your Number" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- GSAP CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="script.js"></script>
+</body>
+</html>
